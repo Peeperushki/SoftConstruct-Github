@@ -8,4 +8,4 @@ UniLearn is a system designed to manage university teaching and learning activit
 The system provides a centralized platform to improve communication, organization, and overall learning efficiency within the university.
 
 ## Documentation
-Read our documentation and coding file formatting rules [here](Documentation and coding file formatting.pdf)
+Read our documentation and coding file formatting rules [here][Documentation and coding file formatting.pdf]
