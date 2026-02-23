@@ -1,5 +1,5 @@
 # UniLearn
-Student Learning Management System (SLMS)
+## Student Learning Management System (SLMS)
 
 <img width="906" height="312" alt="UniLearn_logo" src="https://github.com/user-attachments/assets/53a196a2-dc2b-4be3-be71-025713396e28" />
 
