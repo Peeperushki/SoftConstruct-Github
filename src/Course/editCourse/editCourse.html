@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <body>
+        <h1> EDIT COURSE </h1><br>
+        <a href="../../index.html">return</a> <br>
+        <input type="search" name="search" id="search" list="history">
+        <datalist id="history">
+        </datalist>
+
+        <div id = "details"></div>
+
+        <br><br>
+        <div id="container" hidden>
+            <form id="editor">
+                <label for="courseName"> Name </label> <br>
+                <input type="text" id="courseName" name="courseName" required> <br> <br>
+
+                <label for="creditHour"> Credit Hour </label> <br>
+                <input type="number" id="creditHour" name="creditHour" min="1" value="1"> <br> <br>
+
+                <label for="msTeamsLink"> MS Teams Link </label> <br>
+                <input type="text" id="msTeamsLink" name="msTeamsLink"> <br> <br>
+
+                <label for="course-type"> Type </label> <br>
+                <select name="course-type" id="course-type">
+                    <option value="core" selected> Core </option>
+                    <option value="elective"> Elective </option>
+                    <option value="university"> University </option>
+                </select> <br> <br>
+
+                <p> Students enrolled </p>
+                <div id="students-enroll-list"></div> <br>
+
+                <label for="add-student-input"> Add student to course </label> <br>
+                <input type="search" id="add-student-input" name="add-student-input" placeholder="Enter Student ID" list="students-history" required>
+                <datalist id="students-history">
+                </datalist>
+                <button type="button" id="add-student-btn"> Add </button><br>
+                <span id="add-student-success-msg"></span>
+
+                <br><br>
+                <button type="submit" id="submit"> Submit </button>
+            </form>
+
+            <script src="editCourseFunction.js" type="module"></script>
+        </div>
+    </body>
+</html>

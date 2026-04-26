@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Add Course</title>
+    </head>
+
+    <h1> ADD NEW COURSE </h1><br>
+    <a href="../../index.html">return</a>
+
+    <body>
+        <div>
+            <form id="form">
+                <label for="courseName"> Name </label> <br>
+                <input type="text" id="courseName" name="courseName" required> <br> <br>
+    
+                <label for="courseCode"> Code </label> <br>
+                <input type="text" id="courseCode" name="courseCode" required> <br> <br>
+    
+                <label for="creditHour"> Credit Hour </label> <br>
+                <input type="number" id="creditHour" name="creditHour" min="1" value="1"> <br> <br>
+    
+                <label for="msTeamsLink"> MS Teams Link </label> <br>
+                <input type="text" id="msTeamsLink" name="msTeamsLink"> <br> <br>
+
+                <label for="course-type"> Type </label> <br>
+                <select name="course-type" id="course-type">
+                    <option value="core" selected> Core </option>
+                    <option value="elective"> Elective </option>
+                    <option value="university"> University </option>
+                </select> <br> <br>
+
+                </label>
+    
+                <button type="submit" id="submit"> Submit </button>
+            </form>
+        </div>
+
+        <div id="container"></div>
+
+        <script src="addCourseFunction.js" type="module"></script>
+    </body>
+</html>
